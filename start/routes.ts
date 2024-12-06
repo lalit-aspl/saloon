@@ -16,7 +16,7 @@ router.get('/register', async ({ inertia }) => {
     return inertia.render('auth/register')
 
 })
-router.get('users', [AuthController, 'index'])
+router.post('register', [AuthController, 'register'])
 
 
 router.on('/').renderInertia('home')
