@@ -36,7 +36,8 @@ const submitForm = () => {
       <input v-model="form.password" type="password" id="password" placeholder="Enter your password" required />
     </div>
 
-    <button type="submit" :disabled="form.processing">Register</button>
+    <button type="submit">Register</button>
+    <div></div>
   </form>
 
   <Link href="/">Go back to home</Link>
