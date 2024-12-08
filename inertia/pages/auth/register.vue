@@ -22,6 +22,7 @@ import { Link, Head } from '@inertiajs/vue3'
     </div>
 
     <button type="submit">Register</button>
+    <div></div>
   </form>
 
   <Link href="/">Go back to home</Link>
