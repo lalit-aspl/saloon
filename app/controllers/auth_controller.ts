@@ -1,6 +1,4 @@
 import { HttpContext } from '@adonisjs/core/http';
-import Hash from '@ioc:Adonis/Core/Hash';
-import { schema, rules } from '@ioc:Adonis/Core/Validator';
 const { default: User } = await import('#models/user'); // Adjust the path as necessary
 
 export default class AuthController {
